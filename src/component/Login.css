@@ -1,0 +1,87 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+.login-container .login_form {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background for the form */
+    padding: 1.5rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Optional: Add a blur effect */
+}
+
+.login-container .login_form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.login-container .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.login-container .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* White background for inputs */
+    transition: border-color 0.3s ease;
+}
+
+.login-container .form-group input:hover {
+    border-color: #193e66; /* Hover effect for inputs */
+}
+
+.login-container .form-group input.is-invalid {
+    border-color: #dc3545;
+}
+
+.login-container .invalid-feedback {
+    display: block;
+    color: #dc3545;
+    margin-top: 0.5rem;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d46a07; /* Button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container label {
+    color: #193e66;
+}
+
+.login-container button:hover {
+    background-color: #193e66;
+}
+.login-container .message {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 4px;
+    font-size: 14px;
+}

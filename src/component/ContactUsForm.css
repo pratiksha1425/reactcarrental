@@ -1,0 +1,174 @@
+.contact-container {
+    margin-top: 101px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 380px); /* Adjust height to prevent overlap */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100px; /* Add padding to the bottom to ensure the form doesn't overlap the footer */
+}
+
+.contacthead {
+    text-align: center;
+    color: white; /* Set text color to white */
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9; /* Slight transparency */
+    margin-bottom: 60px;
+   
+}
+
+.contacthead h1 {
+    font-weight: 900;
+    margin: 0;
+    color: #f0ebe6 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    font-size: 5rem; /* Large font size for h1 */
+    margin-bottom: 0.5rem;
+    color: white; /* Set h1 color to white */
+}
+
+.contacthead h2 {
+    font-size: 1.5rem; /* Slightly smaller font size for h2 */
+    color: white; /* Set h2 color to white */
+}
+
+.contact-container .contacthead p{
+    color: #8486A0 !important;
+    font-size: 22px;
+    padding-left: 6px;
+}
+.contact-container .smallhead h2,p{
+    display: flex;
+}
+
+
+.contact-form {
+    padding: 1.5rem;
+    border-radius: 5px white;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Add a blur effect */
+    color: white; /* Set text color to white */
+    margin-left: 18%;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.contact-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem; /* Increase font size */
+    color: white; /* Set h2 color to white */
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background for inputs */
+    transition: border-color 0.3s ease;
+    color: white; /* Set input text color to white */
+}
+
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form input[type="tel"]::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Semi-transparent white placeholder text */
+}
+
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form input[type="tel"]:hover,
+.contact-form textarea:hover {
+    border-color: #193e66; /* Hover effect for inputs */
+}
+
+.contact-form input.is-invalid,
+.contact-form textarea.is-invalid {
+    border-color: #dc3545; /* Invalid input border color */
+}
+
+.contact-form .error-message {
+    display: block;
+    color: #dc3545;
+    margin-top: 0.5rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d46a07; /* Button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #193e66; /* Button hover color */
+}
+.contact-container2{
+    display: flex;
+}
+
+.branch{
+    height: 490px;
+    width: 480px;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8486A0;
+    text-align: left;
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    margin-left: 10%;
+    padding-left: 74px;
+    padding-top: 30px;
+}
+.branch .branchbox{
+    height: 435px;
+    width: 445px;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+
+}
+ .branch .underbox{
+    display: flex;
+    width: 100%;
+    height: 108px;
+}
+.branch .text{
+    display: inline-block;
+}
+.underbox .icon .fa {
+    color: #d46a07 !important;
+}

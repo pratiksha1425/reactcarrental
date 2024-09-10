@@ -1,0 +1,250 @@
+
+.services {
+    width: 100%;
+    margin-top: 71px;
+    justify-content: space-around;
+    height: 939px;
+    background: #d9d1d1;
+    padding-top: 76px;
+    margin-bottom: 81px;
+
+}
+
+.services h1 {
+    font-size: 40px;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    color: #2B2E4A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.serviceboxall {
+    width: 89%;
+    display: flex;
+    height: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.servicebox {
+    width: 404px;
+    height: 327px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px 25px #11101014;
+    background: var(--light);
+    transition: .5s;
+    color: #000; /* Default text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.servicebox:hover {
+    background-color: #2B2E4A;
+    transform: scale(1.05);
+    color: white; /* Ensure the default text color is white on hover */
+}
+
+.servicebox:hover .icon-container .fa,
+.servicebox:hover .icon-container .display-number,
+.servicebox:hover .sname h1,
+.servicebox:hover .info {
+    color: white; /* Change the color of all text elements to white on hover */
+}
+
+.servicebox .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicebox .sname h1, .servicebox .info, .servicebox .icon-container {
+    position: relative; /* Ensures text stays above the overlay */
+    z-index: 1;
+}
+
+.servicebox .icon-container .fa {
+    font-size: 2em;
+    color: #6c757d; /* Secondary text color */
+    transition: color 0.3s ease;
+}
+
+.servicebox .icon-container .display-number {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.servicebox .sname h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.servicebox .info {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.servicebox h1 {
+    font-size: 40px;
+}
+
+.text-secondary {
+    color: #2B2E4A !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    background-color: #d46a07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-number {
+    margin-left: 188px; /* Adjust this value as needed */
+    font-size: 84px;
+    color: #fff;
+}
+
+.backimage {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg");
+    height: 700px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+.discount {
+    width: 100%;
+    background-color: rgba(43, 46, 74, 0.8); /* Semi-transparent background color */
+    height: 700px;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure .discount appears above .backimage */
+}
+
+.discount h1 {
+    color: #F77D0A !important;
+    text-transform: uppercase !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.2;
+    font-size: 8rem;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+}
+
+.discount h2 {
+    color: #f8f7f6 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.2;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+}
+
+.discount p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8486A0;
+    margin-left: 35%;
+}
+
+.discount button {
+    margin-top: 24px;
+    padding: 19px 41px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    background-color: #d46a07;
+    border-color: #9b310e;
+    text-decoration: none;
+}
+
+.discount a {
+    color: #F77D0A;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.service-container {
+    margin-top: 101px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.service-container  .servicehead {
+    text-align: center;
+    color: white; /* Set text color to white */
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9; /* Slight transparency */
+    margin-bottom: 80px;
+}
+.service-container  .servicehead h1{
+    font-weight: 900;
+    margin: 0;
+    color: #f0ebe6 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.service-container .servicehead h1 {
+    font-size: 5rem; /* Large font size for h1 */
+    margin-bottom: 0.5rem;
+    color: white; /* Set h1 color to white */
+}
+
+.service-container  .servicehead h2 {
+    font-size: 1.5rem; /* Slightly smaller font size for h2 */
+    color: white; /* Set h2 color to white */
+}
+
+.service-container   .servicehead p{
+    color: #8486A0 !important;
+    font-size: 22px;
+    padding-left: 6px;
+}
+.service-container  .smallhead h2,p{
+    display: flex;
+}

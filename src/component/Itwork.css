@@ -1,0 +1,128 @@
+.Itwork {
+    margin-top: 89px;
+}
+
+.text {
+    margin-bottom: 123px;
+}
+
+.Itwork .text h1 {
+    text-align: center;
+    color: #364d59;
+    font-weight: 700;
+    font-size: 58px;
+    margin-bottom: 38px;
+}
+
+.Itwork .text p {
+    width: 17%;
+    margin: auto;
+    justify-content: space-around;
+    line-height: 1.5;
+    color: #8486A0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box {
+    display: inline-block;
+    height: 50px;
+    width: 300px;
+    margin-left: 341px;
+    position: relative;
+    z-index: 1;
+}
+
+.steps {
+    width: 391px;
+    height: 183px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow to the box */
+    background-color: #2B2E4A;
+    padding: 0 35px;
+    transition: all 0.3s ease;
+    color: white; /* Ensures text color is white */
+}
+
+.steps:hover {
+    background-color: #9196d3;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.num h1 {
+    position: absolute;
+    bottom: -120px;
+    font-size: 288px;
+    right: 255px;
+    color: #d46a07;
+}
+
+.box .number {
+    font-size: 20px;
+    color: white;
+}
+
+.box .step {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.box .info {
+    padding-top: 5px;
+    color: white;
+}
+
+.child2 {
+    margin-left: 326px;
+    margin-top: 193px;
+}
+
+.play_button {
+    display: flex;
+}
+
+.play-now .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #0779e4;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 127px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.play-now .icon:hover {
+    background: #055bb5;
+    transform: scale(1.1);
+}
+
+.play-now .icon > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #fff;
+    transform: translate(-50%, -60%);
+}
+
+.play-now .caption {
+    font-size: 25px;
+    margin-top: 127px;
+    text-decoration: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}

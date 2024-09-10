@@ -1,0 +1,81 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.registration-form {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background for the form */
+    padding: 1.5rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Optional: Add a blur effect */
+    
+}
+
+.registration-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.registration-form .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"],
+.registration-form input[type="password"],
+.registration-form input[type="date"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* White background for inputs */
+    transition: border-color 0.3s ease;
+}
+
+.registration-form input[type="text"]:hover,
+.registration-form input[type="email"]:hover,
+.registration-form input[type="tel"]:hover,
+.registration-form input[type="password"]:hover,
+.registration-form input[type="date"]:hover {
+    border-color: #193e66; /* Hover effect for inputs */
+}
+
+.registration-form input.is-invalid {
+    border-color: #dc3545; /* Invalid input border color */
+}
+
+.registration-form .error-message {
+    display: block;
+    color: #dc3545;
+    margin-top: 0.5rem;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d46a07; /* Button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #193e66; /* Button hover color */
+}

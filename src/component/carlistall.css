@@ -1,0 +1,157 @@
+.car{
+    width: 100%;
+    height: 3500px;
+    margin-top: 40px;
+    
+  }
+
+.carheading{
+    margin-left: 13%;
+    color: #364d59;
+    margin-top: 30px;
+}
+.carheading h1{
+    font-size: 40px;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    color: #2B2E4A;
+
+}
+
+.allcar{
+   
+    width: 80%;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.carbox{
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px 25px #11101014;
+}
+.car-img img{
+    height: 248px;
+    width: 310px;
+    margin-left: 0px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.listing-content h3{
+    font-size: 18px;
+    font-weight: 900;
+    color: #364d59;
+    line-height: 1.2;
+}
+.rent-prize{
+    color: #d46a07;
+    font-size: 18px;
+}
+.car-features-box{
+    display: flex;
+}
+.car-features{
+    height: 60px;
+    width: 80px;
+}
+.car-features .caption{
+    color: #000;
+    margin-right: 10px;
+   
+}
+.car-features .number{
+    color: #888;
+    display: flex;
+}
+
+.info p{
+    color: #888;
+    font-size: 14px;
+}
+.info button{
+    color: #fff;
+    background-color:#2B2E4A !important;
+    border-color: #007bff;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 12px 25px;
+}
+
+.carseemore button{
+    color: #fff;
+    background-color:#d46a07;
+    border-color: #0c267a;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 12px 25px;
+    margin-left: 46%;
+    margin-top: 721px;
+    text-decoration: none;
+}
+
+.car-container {
+    margin-top: 101px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.car-container  .carhead {
+    text-align: center;
+    color: white; /* Set text color to white */
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9; /* Slight transparency */
+    margin-bottom: 60px;
+}
+.car-container  .carhead h1{
+    font-weight: 900;
+    margin: 0;
+    color: #f0ebe6 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.car-container  .carhead h1 {
+    font-size: 5rem; /* Large font size for h1 */
+    margin-bottom: 0.5rem;
+    color: white; /* Set h1 color to white */
+}
+
+.car-container  .carhead h2 {
+    font-size: 1.5rem; /* Slightly smaller font size for h2 */
+    color: white; /* Set h2 color to white */
+}
+.car-container  .carhead p{
+    color: #8486A0 !important;
+    font-size: 22px;
+    padding-left: 6px;
+}
+.car-container .smallhead h2,p{
+    display: flex;
+}

@@ -1,0 +1,166 @@
+.testi {
+    height: 800px;
+    width: 100%;
+    padding-top: 65px;
+}
+.testi .title-text {
+    padding-bottom: 70px;
+    text-align: center;
+}
+.testi .title-text p {
+    color: #0e032e;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+    color: #8486A0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.testi .title-text h1 {
+    font-size: 40px;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    color: #2B2E4A;
+     text-align: center;
+    margin-bottom: 40px;
+}
+.testi .testimonial-row {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 60px;
+}
+.testi .testimonial-column {
+    border-radius: 5px;
+     box-shadow: 0 10px 20px 15px #00000014;
+    cursor: pointer;
+    flex-basis: 28%;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+}
+.testi .testimonial-column:hover{
+    transform:scale(1.1);
+    transform: translateY(20px);
+
+}
+.testi .user {
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+}
+.testi .user img {
+    border-radius: 3px;
+    margin-right: 20px;
+    width: 40px;
+}
+.testi .user-info .fab {
+    color: #27c0ff;
+    margin-left: 10px;
+}
+.testi .user-info small {
+    color: #F77D0A ;
+}
+.testi .testimonial-column p {
+    font-size: 14px;
+}
+.testbar{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    background-attachment: fixed;
+}
+
+
+.testbar .text{
+    margin-left: 200px;
+    padding-top: 60px;
+    width: 60%;
+    color: white;
+}
+.testbar h4{
+    font-size: 40px;
+    color: white;
+}
+.testbar .textbutton{
+    width: 40%;
+    padding-top: 70px;
+}
+.textbutton button{
+    color: #fff;
+    background-color: #d46a07;
+    border-color: #007bff;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.testi-container{
+    margin-top: 101px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f46d4b), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.testi-container  .testihead {
+    text-align: center;
+    color: white; /* Set text color to white */
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9));
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9; /* Slight transparency */
+    margin-bottom: 60px;
+}
+.testi-container  .testihead h1{
+    font-weight: 900;
+    margin: 0;
+    color: #f0ebe6 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-family: "Oswald", sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.testi-container .testihead h1 {
+    font-size: 5rem; /* Large font size for h1 */
+    margin-bottom: 0.5rem;
+    color: white; /* Set h1 color to white */
+}
+
+.testi-container  .testihead h2 {
+    font-size: 1.5rem; /* Slightly smaller font size for h2 */
+    color: white; /* Set h2 color to white */
+}
+
+.testi-container   .testihead p{
+    color: #8486A0 !important;
+    font-size: 22px;
+    padding-left: 6px;
+}
+.testi-container .smallhead h2,p{
+    display: flex;
+}
+
+

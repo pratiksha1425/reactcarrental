@@ -1,0 +1,250 @@
+.homepage{
+    height: 100vh;
+    background: linear-gradient(rgba(224, 187, 187, 0.5), #cdbfbb), url("/src/assets/images/backimage.jpg") no-repeat center center fixed;
+
+}
+.hometext {
+    text-align: center;
+    /* padding-top: 100px; Adjust as needed for spacing */
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    height: 9%;
+} 
+.homepage{
+  background:url("/src/assets/images/car-rental-banner.jpg");
+  height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 570px;
+    margin-top: -89px;
+    /* text-align: center;
+    padding-top: 100px; /* Adjust as needed for spacing */
+    /* color: white;
+    font-size: 50px;
+    font-weight: normal;
+    height: 40%; */ 
+}
+
+.hometext b {
+    color: black; /* Override the color of <b> tag */
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 42px;
+}
+
+.dropdown {
+    flex: 1; /* Equal width for all dropdowns */
+    margin-right: 10px; /* Adjust spacing between dropdowns */
+}
+
+.dropdown label {
+    margin-bottom: 5px;
+    color: #2B2E4A; /* Dark color for labels */
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Light border for dropdowns */
+    outline: none;
+    font-size: 16px;
+}
+
+.datetimepicker-input {
+    flex: 1; /* Equal width for date and time inputs */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Light border */
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px; /* Adjust spacing between inputs */
+}
+
+
+  
+  .search-button {
+    flex: 1; /* Equal width for the search button */
+    margin-top: -5px; /* Adjust spacing between inputs and button */
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    background-color: #d46a07;
+    border-color: #9b310e;
+    text-decoration: none;
+    
+}
+.search-button a{
+    color: #fff;
+}
+
+
+.hometext .Register_Now button{
+    width: 214px; 
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    background-color: #d46a07;
+    border: none; /* Remove border */
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 335px; /* Adjust margin as needed */
+    transition: background-color 0.3s ease;
+}
+
+.hometext .Register_Now :hover{
+    color: #fff;
+}
+
+
+
+
+
+
+.search-button:hover{
+    color: #82300d;
+}
+
+.dropdown{
+    flex: 1 1;
+    border-radius: 4px;
+    border: 1px solid #131212; 
+    /* outline: none; */
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:#495057;;
+    height: 40px;
+    
+  
+}
+.Pickup{
+    flex: 1 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #495057;;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #495057;
+    margin-right: 10px;
+
+}
+
+.dropdown select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    color:#495057;; /* Default color for select text */
+    
+}
+
+.dropdown select option {
+    color: blue; /* Change color for all options */
+}
+
+    /* Animation keyframes
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to h1 tag */
+.banner-cell h1 {
+    font-size: 48px;
+    line-height: 3.2;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease forwards;
+    margin-left: 338px;
+    font-family: 'nautilus_pompiliusregular';
+    font-size: 74px;
+    font-weight: 900;
+    color: #fff;
+    padding-top: 83px;
+} 
+/* CSS for banner text animation */
+/* CSS for banner text animation */
+.typer {
+    /* display: inline-block; */
+    font-weight: bold;
+    color: #d46a07; /* Default color */
+    overflow: hidden; /* Hide overflow to clip text */
+    position: relative; /* Ensure relative positioning for absolute child */
+    text-align: center;
+    padding-top: 100px; /* Adjust as needed for spacing */
+    font-size: 65px;
+    font-weight: 900;
+    height: 40%;
+    margin: auto;
+    justify-content: space-between;
+    font-family: 'nautilus_pompiliusregular';
+    
+  }
+  
+  .typer[data-words]:after {
+    content: attr(data-words);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap; /* Prevent wrapping of words */
+    animation: typerAnimation 10s infinite; /* Adjust duration as needed */
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  @keyframes typerAnimation {
+    0%, 20% {
+      opacity: 0;
+    }
+    25%, 45% {
+      opacity: 1;
+    }
+    50%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  .cursor {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  /* Additional styles for cursor animation if needed */
+  .cursor[data-cursorDisplay]::after {
+    content: attr(data-cursorDisplay);
+    animation: blink 1s infinite step-end;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+  

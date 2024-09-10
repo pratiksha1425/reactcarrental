@@ -1,0 +1,79 @@
+.carlist{
+    height:1500px;
+    /* background-color: blueviolet; */
+    padding-top: 40px;
+    
+}
+.carheading{
+    margin-left: 13%;
+    color: #364d59;
+}
+.carheading h1{
+    font-size: 40px;
+}
+.allcar{
+   
+    width: 80%;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.carbox{
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px 25px #11101014;
+}
+.car-img img{
+    height: 248px;
+    width: 310px;
+    margin-left: 0px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.listing-content h3{
+    font-size: 18px;
+    font-weight: 900;
+    color: #364d59;
+    line-height: 1.2;
+}
+.rent-prize{
+    color: #d46a07;
+    font-size: 18px;
+}
+.car-features-box{
+    display: flex;
+}
+.car-features{
+    height: 60px;
+    width: 80px;
+}
+.car-features .caption{
+    color: #000;
+    margin-right: 10px;
+   
+}
+.car-features .number{
+    color: #888;
+    display: flex;
+}
+
+.info p{
+    color: #888;
+    font-size: 14px;
+}
+.info button{
+    color: #fff;
+    background-color:#2B2E4A !important;;
+    border-color: #007bff;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 12px 25px;
+}

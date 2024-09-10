@@ -1,0 +1,136 @@
+.footer {
+    height: auto; /* Adjusted to auto to accommodate dynamic content height */
+    width: 100%;
+    background-color: #2B2E4A !important;
+    margin-top: 125px;
+    padding-top: 40px;
+    padding-bottom: 20px; /* Add some bottom padding */
+}
+
+.footer .footerbox {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    position: relative; /* Adjusted to relative to stay within document flow */
+}
+
+.footer .headings {
+    width: 23%;
+    padding-left: 24px;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+.headings p {
+    font-size: 18px;
+}
+
+.footer .headtext {
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8486A0;
+}
+
+.footer .headtext h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 26px;
+}
+
+.footer .social {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 388px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.socialfab {
+    padding-right: 20px;
+}
+
+.socialfab .fab {
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 2;
+    color: #fff;
+    background-color: #1C1E32;
+    border-color: #1C1E32;
+    width: 46px;
+    height: 46px;
+    margin: 0;
+}
+
+.footer .gallerpic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.gallerpic .pic {
+    width: 30%;
+    background-color: rgb(255, 196, 0);
+    height: 107px;
+    margin-bottom: 20px;
+}
+
+.gallerpic .pic img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.newsletter {
+    display: flex;
+    height: 65px;
+    width: 100%;
+}
+
+.input input {
+    width: 257px;
+    height: 55px;
+    background-color: #1C1E32;
+    border: none;
+}
+
+.sign button {
+    background-color: #d46a07;
+    color: white;
+    height: 60px;
+}
+
+.bottmfooter {
+    height: 116px;
+    width: 100%;
+    background-color: #1C1E32;
+    margin-top: 40px; /* Ensure it has some margin from the main footer content */
+   
+}
+
+.bottmfooter p {
+    color: #8486A0 !important;
+    margin-bottom: .5rem !important;
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 40%;
+}
+
+.bottmfooter b {
+    color: #d46a07;
+    padding-left: 5px;
+}
